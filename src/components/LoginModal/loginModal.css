@@ -1,0 +1,32 @@
+.my-modal {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 5px 10px 2px rgba(195, 192, 192, 0.5);
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.login-box {
+  width: 20%;
+  height: 20%;
+  align-self: center;
+  background: #fff;
+}
+
+.login-button {
+  height: 40px;
+  width: 100px;
+  background: #005686;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

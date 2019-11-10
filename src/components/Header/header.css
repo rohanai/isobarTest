@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  height: 20px;
+  width: 40%;
+}

@@ -1,0 +1,55 @@
+.course-card {
+  background: #fff 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  box-shadow: 0 0 20px #00000026;
+  display: flex;
+  height: 100px;
+  margin-top: 20px;
+  max-width: 80%;
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.cart {
+  display: none;
+}
+
+.course-card:hover .cart {
+  cursor: pointer;
+  display: initial;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 2px;
+  border: none;
+  height: 30px;
+  width: 60px;
+  background-color: #005686;
+  color: white;
+}
+
+.course-thumb {
+  width: 100px;
+}
+
+.course-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.course-description {
+  font-size: 16px;
+  color: gray;
+}
+
+.card-detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-container {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
